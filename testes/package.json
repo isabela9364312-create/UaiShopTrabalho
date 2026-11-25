@@ -1,0 +1,11 @@
+{
+  "name": "uaishop-testes",
+  "private": true,
+  "description": "Testes automáticos do UaiShop num navegador simulado (jsdom)",
+  "scripts": {
+    "test": "node teste-telas.js && node teste-armazenamento-bloqueado.js"
+  },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}
